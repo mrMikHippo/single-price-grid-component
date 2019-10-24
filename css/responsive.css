@@ -1,0 +1,33 @@
+@media screen and (min-width: 376px) {
+  .wrapper {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  body {
+    height: 100vh;
+    align-items: center;
+  }
+
+  .wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 750px;
+    border-radius: 7px;
+  }
+
+  .join-us {
+    flex-basis: 100%;
+  }
+
+  .monthly-subscription {
+    flex: 1;
+    border-bottom-left-radius: 5px;
+  }
+
+  .why-us {
+    flex: 1;
+    border-bottom-right-radius: 5px;
+  }
+}
